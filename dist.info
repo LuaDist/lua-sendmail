@@ -1,0 +1,31 @@
+type = "x86"
+arch = "Windows"
+author = "Alexey Melnichuk"
+depends = {
+[[lua >= 5.1]],
+[[luasocket >= 2.0]],
+}
+
+desc = "Simple wrapper around luasoket smtp.send"
+version = "0.1.1"
+maintainer = "Alexey Melnichuk"
+files = {
+Runtime = {
+[[lib\lua\sendmail.lua]],
+}
+,
+Documentation = {
+[[share\lua-sendmail\doc\\index.html]],
+[[share\lua-sendmail\doc\\ldoc.css]],
+}
+,
+Data = {
+[[share\lua-sendmail\README.md]],
+[[share\lua-sendmail\LICENCE.txt]],
+}
+,
+}
+
+license = "MIT/X11"
+name = "lua-sendmail"
+url = "https://github.com/moteus/lua-sendmail"
